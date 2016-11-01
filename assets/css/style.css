@@ -34,19 +34,19 @@ h1 {
 	margin-right: 5%;
 }
 
-.btn-primary.outline {
-	border: 2px solid #fff;
+.btn-default.outline {
+	border: 3px solid #fff;
+	font-family: 'Exo 2', sans-serif;
 	color: #fff;
 }
 
-.btn-primary.outline:hover, .btn-primary.outline:focus {
+.btn-default.outline:hover, .btn-default.outline:focus {
 	border-color: #bbb;
 	color: #bbb;
 }
 
-
-.btn-primary.outline:active, .btn-primary.outline.active {
-	border-color: #666;
-	color: #666;
+.btn-default.outline:active, .btn-default.outline.active {
+	border-color: #000;
+	color: #000;
 	box-shadow: none;
 }

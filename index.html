@@ -13,11 +13,42 @@
 
 
 	<div class='btnContainer'>
-		<button class='btn btn-primary outline btn-lg intro-button'> NBA </button>
-		<button class='btn btn-primary outline btn-lg intro-button'> NFL </button>
-		<button class='btn btn-primary outline btn-lg intro-button'> MLB </button>
-		<button class='btn btn-primary outline btn-lg intro-button'> NHL </button>
+		<button id='nba' class='btn btn-default outline btn-lg'> NBA </button>
+		<button id='nfl' class='btn btn-default outline btn-lg'> NFL </button>
+		<button id='mlb' class='btn btn-default outline btn-lg'> MLB </button>
+		<button id='nhl' class='btn btn-default outline btn-lg'> NHL </button>
 	</div>
+
+<div class='scrapedContainer'>
 </div>
+</div>
+<script>
+function f1() {
+    console.log("f1 called");
+}
+function f2() {
+    alert("f2 called");
+}
+function f3() {
+    alert("f3 called");
+}
+function f4() {
+    alert("f4 called");
+}
+window.onload = function() {
+    document.getElementById("nba").onclick = function fun() {
+        f1();
+    }
+    document.getElementById("nfl").onclick = function fun() {
+        f2();
+    }
+    document.getElementById("mlb").onclick = function fun() {
+        f3();
+    }
+        document.getElementById("nhl").onclick = function fun() {
+        f4();
+    }
+}
+</script>
 </body>
 </html>
